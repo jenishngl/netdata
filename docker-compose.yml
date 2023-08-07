@@ -14,6 +14,7 @@ services:
       - /data/netdata/netdataconfig:/etc/netdata
       - /data/netdata/netdatalib:/var/lib/netdata
       - /data/netdata/netdatacache:/var/cache/netdata
+      - /data/netdata/msmtprc:/etc/msmtprc
       - /etc/passwd:/host/etc/passwd:ro
       - /etc/group:/host/etc/group:ro
       - /proc:/host/proc:ro
